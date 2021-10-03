@@ -5,7 +5,7 @@
 # diff -ru nginx.spec tengine.spec
 ```
 - Separate package names are used. But they are in-place substitution for orginal nginx* packages, for easier operation.
-- Copy all file to `~/rpmbuild/SOURCES`, and build:
+- Copy all files into `~/rpmbuild/SOURCES`, and build:
 ```shell
 # rpmbuild -ba tengine.spec
 ```
